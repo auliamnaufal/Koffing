@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'poppins': ['Poppins'],
+        'title': ['Gilda Display']
+      },
+      colors: {
+        'primary': '#F87171'
+      }
+    },
   },
   plugins: [],
 }
