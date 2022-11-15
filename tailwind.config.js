@@ -11,7 +11,7 @@ module.exports = {
         'primary': '#F87171'
       },
       backgroundImage: {
-        'coffee-1': "url('./dist/images/coffee-1.png')"
+        'coffee-1': "url('./images/coffee-1.png')"
       },
       height: {
         '138': '38rem'
