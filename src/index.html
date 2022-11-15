@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="../dist/build.css" rel="stylesheet" />
   </head>
   <body class="py-8 bg-gray-100 font-poppins">
@@ -54,13 +60,15 @@
           </div>
         </section>
 
-				<section class="py-4">
+        <section class="py-4">
           <h3 class="text-4xl font-bold text-gray-900 w-80">
             We Offer <span class="text-primary">You</span> The
             <span class="text-primary">Best</span> We Have
           </h3>
           <div class="grid grid-cols-2 mt-8 gap-8">
-            <div class="rounded-xl bg-coffee-1 object-cover relative w-full h-138 bg-cover">
+            <div
+              class="rounded-xl bg-coffee-1 object-cover relative w-full h-138 bg-cover"
+            >
               <div
                 class="w-1/2 h-20 bg-white rounded-xl flex items-center p-4 absolute bottom-0 ml-8 mb-8"
               >
@@ -169,27 +177,27 @@
             <div class="py-4 space-y-5">
               <h4 class="text-3xl">Choose Your Coffee</h4>
               <div class="flex items-center space-x-6">
-                <div class="inline-block overflow-hidden w-32 rounded-xl ">
-									<img
-										src="../dist/images/coffee-2.png"
-										alt="coffee"
-										class="transition align-middle hover:scale-125"
-									/>
-								</div>
-                <div class="inline-block overflow-hidden w-32 rounded-xl ">
-									<img
-										src="../dist/images/coffee-3.png"
-										alt="coffee"
-										class="transition align-middle hover:scale-125"
-									/>
-								</div>
-								<div class="inline-block overflow-hidden w-32 rounded-xl ">
-									<img
-										src="../dist/images/coffee-4.png"
-										alt="coffee"
-										class="transition align-middle hover:scale-125"
-									/>
-								</div>
+                <div class="inline-block overflow-hidden w-32 rounded-xl">
+                  <img
+                    src="../dist/images/coffee-2.png"
+                    alt="coffee"
+                    class="transition align-middle hover:scale-125"
+                  />
+                </div>
+                <div class="inline-block overflow-hidden w-32 rounded-xl">
+                  <img
+                    src="../dist/images/coffee-3.png"
+                    alt="coffee"
+                    class="transition align-middle hover:scale-125"
+                  />
+                </div>
+                <div class="inline-block overflow-hidden w-32 rounded-xl">
+                  <img
+                    src="../dist/images/coffee-4.png"
+                    alt="coffee"
+                    class="transition align-middle hover:scale-125"
+                  />
+                </div>
                 <div
                   class="w-12 h-12 rounded-full bg-primary flex items-center justify-center"
                 >
@@ -288,41 +296,77 @@
           </div>
         </section>
 
-				<section class="py-10 mt-10">
-					<h3 class="text-4xl font-bold text-gray-900 text-center mb-5">How <span class="text-primary">Koffing</span> Works</h3>
-					<p class="text-md text-gray-600 text-center mb-16">A cycle you go trough to order your coffee in Koffing</p>
-					<div class="grid grid-cols-4">
-						<div class="flex flex-col items-center space-y-2">
-							<div class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full">
-								<img src="../dist/icons/coffe-beans.png" alt="coffee beans" class="w-12 h-12">
-							</div>
-							<h4 class="text-lg text-primary">Choose Your Coffee</h4>
-							<p class="text-xs text-gray-500 w-60 text-center">choose wisely and the Coffee that you want</p>
-						</div>
-						<div class="flex flex-col items-center space-y-2">
-							<div class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full">
-								<img src="../dist/icons/credit.png" alt="coffee beans" class="w-12 h-12">
-							</div>
-							<h4 class="text-lg text-primary">Make Payment</h4>
-							<p class="text-xs text-gray-500 w-60 text-center">specify your location and choose a payment method</p>
-						</div>
-						<div class="flex flex-col items-center space-y-2">
-							<div class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full">
-								<img src="../dist/icons/fast-delivery.png" alt="coffee beans" class="w-12 h-12">
-							</div>
-							<h4 class="text-lg text-primary">Wait For Your Coffee</h4>
-							<p class="text-xs text-gray-500 w-60 text-center">Wait for your Coffee to be delivered safely and quickly</p>
-						</div>
-						<div class="flex flex-col items-center space-y-2">
-							<div class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full">
-								<img src="../dist/icons/brew.png" alt="coffee beans" class="w-12 h-12">
-							</div>
-							<h4 class="text-lg text-primary">Relax and drink your coffee</h4>
-							<p class="text-xs text-gray-500 w-60 text-center">Relax and drink your favorite coffee, makes your head feels alive</p>
-						</div>
-					</div>
-				</section>
-
+        <section class="py-10 mt-10">
+          <h3 class="text-4xl font-bold text-gray-900 text-center mb-5">
+            How <span class="text-primary">Koffing</span> Works
+          </h3>
+          <p class="text-md text-gray-600 text-center mb-16">
+            A cycle you go trough to order your coffee in Koffing
+          </p>
+          <div class="grid grid-cols-4">
+            <div class="flex flex-col items-center space-y-2">
+              <div
+                class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full"
+              >
+                <img
+                  src="../dist/icons/coffe-beans.png"
+                  alt="coffee beans"
+                  class="w-12 h-12"
+                />
+              </div>
+              <h4 class="text-lg text-primary">Choose Your Coffee</h4>
+              <p class="text-xs text-gray-500 w-60 text-center">
+                choose wisely and the Coffee that you want
+              </p>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div
+                class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full"
+              >
+                <img
+                  src="../dist/icons/credit.png"
+                  alt="coffee beans"
+                  class="w-12 h-12"
+                />
+              </div>
+              <h4 class="text-lg text-primary">Make Payment</h4>
+              <p class="text-xs text-gray-500 w-60 text-center">
+                specify your location and choose a payment method
+              </p>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div
+                class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full"
+              >
+                <img
+                  src="../dist/icons/fast-delivery.png"
+                  alt="coffee beans"
+                  class="w-12 h-12"
+                />
+              </div>
+              <h4 class="text-lg text-primary">Wait For Your Coffee</h4>
+              <p class="text-xs text-gray-500 w-60 text-center">
+                Wait for your Coffee to be delivered safely and quickly
+              </p>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div
+                class="w-20 h-20 flex items-center justify-center bg-white drop-shadow-md rounded-full"
+              >
+                <img
+                  src="../dist/icons/brew.png"
+                  alt="coffee beans"
+                  class="w-12 h-12"
+                />
+              </div>
+              <h4 class="text-lg text-primary">Relax and drink your coffee</h4>
+              <p class="text-xs text-gray-500 w-60 text-center">
+                Relax and drink your favorite coffee, makes your head feels
+                alive
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <!--End Content Wrapper-->
